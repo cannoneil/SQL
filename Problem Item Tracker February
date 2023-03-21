@@ -1,9 +1,9 @@
 --Create tracking sheet for all problem items of the library
 
-CREATE TABLE problem items (id INTEGER PRIMARY KEY, date DATE, barcode INTEGER, type of item TEXT, department TEXT, problem TEXT, solution TEXT, comments TEXT);
+CREATE TABLE problem items (id INTEGER PRIMARY KEY AUTOINCREMENT, date DATE, barcode INTEGER, type of item TEXT, department TEXT, problem TEXT, solution TEXT, comments TEXT);
 
-INSERT INTO problem items VALUES (1, "2023-02-01", 302115765, "Video Game", "YA", "Blank RFID Tag", "Secured RFID Tag");
-INSERT INTO problem items VALUES (2, "2023-02-02", 301901439, "Video Game", "Adult", "Broken case", "Replaced with new case");
-INSERT INTO problem items VALUES (3, "2023-02-03", 301741892, "Book", "Adult", "Faded call number sticker", "New call number sticker");
-INSERT INTO problem items VALUES (4, "2023-02-03", 302149145, "Book", "Children's", "Ripped jacket", "Re-wrapped a new jacket");
-INSERT INTO problem items VALUES (5, "2023-02-03", 203149020, "Book", "Children's", "Ripped jacket", "Re-wrapped a new jacket");
+INSERT INTO problem items VALUES ("2023-02-01", 302115765, "Video Game", "YA", "Blank RFID Tag", "Secured RFID Tag");
+INSERT INTO problem items VALUES ("2023-02-02", 301901439, "Video Game", "Adult", "Broken case", "Replaced with new case");
+INSERT INTO problem items VALUES ("2023-02-03", 301741892, "Book", "Adult", "Faded call number sticker", "New call number sticker");
+INSERT INTO problem items VALUES ("2023-02-03", 302149145, "Book", "Children's", "Ripped jacket", "Re-wrapped a new jacket");
+INSERT INTO problem items VALUES ("2023-02-03", 203149020, "Book", "Children's", "Ripped jacket", "Re-wrapped a new jacket");
